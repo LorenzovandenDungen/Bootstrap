@@ -2,51 +2,38 @@
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="ie=edge" http-equiv="X-UA-Compatible">
-    <title>Sport Gym Club</title>
-    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" rel="stylesheet">
-    <script crossorigin="anonymous" defer
-            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Everybody Gym</title>
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" rel="stylesheet">
+    <script crossorigin="anonymous" defer integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <link href="css/styles.css" rel="stylesheet">
+    <!-- Zorg ervoor dat je LESS compileert naar CSS en koppel het gegenereerde CSS-bestand -->
 </head>
 <body>
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <img alt="Logo" src="afbeeldingen/logo.png" style="height: 30px;">
-                <!-- Zorg ervoor dat het pad naar het logo correct is -->
+                <!-- Voeg je eigen logo toe -->
+                <img alt="Everybody Gym Logo" src="afbeeldingen/logo.png" style="height: 30px;">
             </a>
-            <button aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"
-                    class="navbar-toggler"
-                    data-bs-target="#navbarNavDropdown" data-bs-toggle="collapse" type="button">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a aria-current="page" class="nav-link active" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="vestigingen.html">Vestigingen</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="les-boeken.html">Les Boeken</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="fotogallery.html">Fotogallery</a>
-                    </li>
-                    <!-- Voeg eventueel meer links toe als je meer pagina's hebt -->
-                </ul>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link" href="vestigingen.html">Vestigingen</a>
+                    <a class="nav-link" href="les-boeken.html">Reserveer een les</a>
+                    <a class="nav-link" href="fotogallery.html">Fotogallery</a>
+                </div>
             </div>
         </div>
     </nav>
 </header>
 
-<div class="container">
+<main class="container mt-4">
     <h1>Welkom bij onze Sport Gym Club</h1>
     <p>Beste sporters,</p>
     <p>Welkom bij onze Sport Gym Club, waar fitness, gezondheid en welzijn samenkomen.</p>
@@ -59,7 +46,8 @@
         Sport Gym Club vindt u de ondersteuning, motivatie en middelen die u nodig hebt om uw beste zelf te
         bereiken.</p>
     <p>En vergeet niet; Let your body ROC!</p>
-</div>
+</main>
+
 
 <footer class="bg-light text-center text-lg-start">
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
