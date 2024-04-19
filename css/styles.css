@@ -9,3 +9,57 @@
 }
 
 /* Aanvullende stijlen kunnen hier worden toegevoegd */
+/* styles.css */
+
+/* Algemene opmaak */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+.achtergrondfoto {
+    background-image: url('../afbeeldingen/bodybuilding.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Hiermee zorg je ervoor dat de achtergrond de volledige hoogte van het scherm beslaat */
+}
+
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+/* Header */
+.navbar-brand img {
+    margin-top: 5px;
+}
+
+/* Main */
+h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.wit-tekst {
+    color: white;
+}
+.rood-tekst{
+    color: red;
+}
+
+/* Footer */
+footer {
+    padding: 20px 0;
+    background-color: #f8f9fa;
+    color: #333;
+    font-size: 14px;
+}
