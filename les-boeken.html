@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Les Boeken | Everybody Fitness</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <style>
+        /* Voeg hier eventuele aanvullende stijlen toe */
+    </style>
+</head>
+<body>
+<div class="container mt-3">
+    <h2>Boek een les</h2>
+    <div class="row">
+        <!-- Invoerformulier voor klantgegevens -->
+        <div class="col-md-6">
+            <form id="reservationForm">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Naam:</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="customerNumber" class="form-label">Klantnummer:</label>
+                    <input type="text" class="form-control" id="customerNumber" required>
+                </div>
+                <div class="mb-3">
+                    <label for="phone" class="form-label">Telefoon:</label>
+                    <input type="tel" class="form-control" id="phone" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Emailadres:</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="lessonType" class="form-label">Soort les:</label>
+                    <select class="form-select" id="lessonType" required>
+                        <option value="algemene_conditietraining">Algemene conditietraining</option>
+                        <option value="body_building">Body building</option>
+                        <option value="body_pump">Body pump</option>
+                        <option value="boksen">Boksen</option>
+                        <option value="hardlopen">Hardlopen</option>
+                        <option value="spinning">Spinning</option>
+                        <option value="yoga">Yoga</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="dateAndTime" class="form-label">Dag en tijd:</label>
+                    <input type="datetime-local" class="form-control" id="dateAndTime" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Reserveer</button>
+            </form>
+        </div>
+        <!-- Overzicht van de reservering -->
+        <div class="col-md-6">
+            <h3>Jouw reservering</h3>
+            <p>Naam: <span id="outputName"></span></p>
+            <!-- Output overige gegevens -->
+            <!-- Voeg hier JavaScript toe om de ingevulde gegevens te verwerken en weer te geven -->
+        </div>
+    </div>
+    <hr>
+    <div>
+        <h4>Kosten van de lessen:</h4>
+        <p>Een les kost standaard €10,-. Tussen 11:00u en 16:00u geldt een korting van 30% per les.</p>
+        <h4>Wanneer worden de lessen gegeven?</h4>
+        <p>7 dagen per week vanaf 08:00u tot 23:00u.</p>
+        <h4>De volgende lessen worden gegeven:</h4>
+        <ul>
+            <li>Algemene conditietraining</li>
+            <!-- Voeg hier andere lessen toe -->
+        </ul>
+    </div>
+</div>
+<script>
+    // Voeg hier JavaScript toe om de formuliervelden te verwerken en de reservering weer te geven
+</script>
+</body>
+</html>
