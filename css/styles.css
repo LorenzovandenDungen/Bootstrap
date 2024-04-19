@@ -21,8 +21,7 @@ body {
 .achtergrondfoto {
     background-image: url('../afbeeldingen/bodybuilding.jpg');
     background-size: cover;
-    background-position: center;
-}
+    background-position: center;}
 
 
 .container {
