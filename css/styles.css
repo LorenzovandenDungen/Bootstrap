@@ -22,7 +22,6 @@ body {
     background-image: url('../afbeeldingen/bodybuilding.jpg');
     background-size: cover;
     background-position: center;
-    height: 100vh; /* Hiermee zorg je ervoor dat de achtergrond de volledige hoogte van het scherm beslaat */
 }
 
 
