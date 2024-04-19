@@ -63,3 +63,18 @@ footer {
     color: #333;
     font-size: 14px;
 }
+/* In je bestaande CSS-bestand of een nieuw bestand voor responsief ontwerp */
+
+/* Tablet en desktop lay-out */
+@media (min-width: 768px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+/* Desktop lay-out */
+@media (min-width: 992px) {
+    .container {
+        max-width: 1170px;
+    }
+}
