@@ -1,5 +1,14 @@
 {
+  "name": "mijn-project",
+  "version": "1.0.0",
+  "scripts": {
+    "less": "lessc styles.less styles.css"
+  },
   "devDependencies": {
-    "less": "^4.2.0"
+    "less": "^4.2.0",
+    "less-watch-compiler": "^1.16.3"
+  },
+  "scripts": {
+    "watch-less": "less-watch-compiler less css"
   }
 }
