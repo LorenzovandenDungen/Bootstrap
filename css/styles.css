@@ -1,0 +1,83 @@
+/* styles.css */
+
+/* Reset wat stijlen voor consistentie tussen browsers */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basis body stijlen */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Header en navigatiebalk */
+header {
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.navbar {
+    padding: 0.5rem 0;
+}
+
+/* Logo stijlen */
+.navbar-brand img {
+    max-height: 50px; /* Pas de grootte van het logo naar wens aan */
+}
+
+/* Navigatielinks */
+.navbar-nav {
+    margin-top: 0;
+}
+
+.nav-link {
+    color: #333;
+    margin-right: 1rem;
+}
+
+.nav-link:hover {
+    color: #ff0000; /* Rode kleur bij hover */
+}
+
+/* Toggler icon */
+.navbar-toggler {
+    border: none;
+}
+
+/* Hoofdinhoud stijlen */
+main {
+    padding: 1rem;
+    background-color: #fff;
+}
+
+/* Footer stijlen */
+footer {
+    background: #333;
+    color: white;
+}
+
+.footer {
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.footer .text-muted {
+    color: #ddd;
+}
+
+/* Aanpassingen voor kleine schermen */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 1rem;
+    }
+
+    .navbar-brand img {
+        max-height: 40px;
+    }
+}
+
+/* Voeg hier je eigen aangepaste stijlen toe voor elementen zoals knoppen, velden, etc. */
