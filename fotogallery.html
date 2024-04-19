@@ -1,10 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Fotogalerij | Everybody Fitness</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet"> <!-- Verwijst naar je gecompileerde LESS CSS-bestand -->
 </head>
 <body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img alt="Logo" src="afbeeldingen/logo.png" style="height: 30px;">
+                <!-- Zorg ervoor dat het pad naar het logo correct is -->
+            </a>
+            <button aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+                    data-bs-target="#navbarNavDropdown" data-bs-toggle="collapse" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a aria-current="page" class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="vestigingen.html">Vestigingen</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="les-boeken.html">Les Boeken</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="fotogallery.html">Fotogallery</a>
+                    </li>
+                    <!-- Voeg eventueel meer links toe als je meer pagina's hebt -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
 
+<div class="container mt-3">
+    <h2>Fotogalerij</h2>
+    <div class="carousel slide" data-bs-ride="carousel" id="carouselExampleControls">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img alt="Aerobics" class="d-block w-100" src="afbeeldingen/aerobics.jpg">
+            </div>
+            <div class="carousel-item">
+                <img alt="Bodybuilding" class="d-block w-100" src="afbeeldingen/bodybuilding.jpg">
+            </div>
+            <div class="carousel-item">
+                <img alt="Boksen" class="d-block w-100" src="afbeeldingen/boksen.jpg">
+            </div>
+            <div class="carousel-item">
+                <img alt="Cardio" class="d-block w-100" src="afbeeldingen/cardio.jpg">
+            </div>
+            <div class="carousel-item">
+                <img alt="Groepslessen" class="d-block w-100" src="afbeeldingen/groepslessen.jpg">
+            </div>
+            <div class="carousel-item">
+                <img alt="Spinnen" class="d-block w-100" src="afbeeldingen/spinnen.jpg">
+            </div>
+            <div class="carousel-item">
+                <img alt="Yoga" class="d-block w-100" src="afbeeldingen/yoga.jpg">
+            </div>
+        </div>
+        <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleControls"
+                type="button">
+            <span aria-hidden="true" class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Vorige</span>
+        </button>
+        <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleControls"
+                type="button">
+            <span aria-hidden="true" class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Volgende</span>
+        </button>
+    </div>
+</div>
+
+<footer>
+    <!-- Hier zou je footer komen -->
+</footer>
+
+<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
