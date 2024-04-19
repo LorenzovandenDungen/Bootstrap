@@ -1,75 +1,11 @@
 /* styles.css */
-/* Basis resets en standaardinstellingen */
-body, h1, p, header, nav, main, footer {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-/* Basis body stijlen */
-body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f4;
-}
+/* Aanvullende stijlen voor les-boeken.html */
 
-/* Header en navigatiebalk */
-header {
-    background-color: #fff;
-    padding: 10px 0;
-    border-bottom: 2px solid #e3e3e3;
-}
-
-.navbar-brand img {
-    height: auto; /* Passende hoogte voor jouw logo */
-}
-
-/* Navigatielinks */
-.nav-link {
-    color: #555;
-    font-size: 16px;
-    padding: 8px 15px;
-    transition: color 0.3s;
-}
-
-.nav-link:hover, .nav-link:focus {
-    color: #d60000; /* De hoofdkleur van Everybody Gym */
-}
-
-/* Footer stijlen */
-footer {
-    background-color: #101010;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 14px;
-}
-
-.footer-slogan {
-    margin-top: 10px;
-    font-size: 18px;
+/* Stijl voor reserveringsdetails */
+#outputName {
     font-weight: bold;
+    color: #ff6f61; /* Kies een passende kleur */
 }
 
-/* Aanpassingen voor kleine schermen */
-@media (max-width: 768px) {
-    .navbar {
-        padding: 0 15px;
-    }
-
-    .navbar-brand img {
-        height: 40px; /* Aanpassing voor kleinere schermen */
-    }
-
-    .nav-link {
-        padding: 8px 0; /* Verticale padding voor kleinere schermen */
-    }
-
-    .navbar-toggler {
-        border: none;
-        outline: none;
-    }
-}
-
-/* Voeg hier je eigen aangepaste stijlen toe voor elementen zoals knoppen, velden, etc. */
+/* Aanvullende stijlen kunnen hier worden toegevoegd */
